@@ -1,0 +1,100 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap');
+
+
+
+@import "tailwindcss";
+
+
+
+
+@theme {
+  --font-carter:  "Carter One", system-ui;
+}
+
+
+
+@theme {
+  --color-primary-bg: #00002C;
+  --color-navi-blue: #00002C;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+  --color-jelly: #651FFF;
+  --color-blue-razz:#333F76;
+  --color-jollyRan:#42FEDA;
+  --color-fBtn:#333F76;
+}
+
+
+
+@theme {
+  --text-75: 75px;
+  --text-28: 28px; 
+  --text-8: 8px; 
+  --text-16: 16px; 
+  --text-18: 18px; 
+  --text-22: 22px; 
+  --text-42: 42px; 
+  --text-48: 48px; 
+  --text-55: 55px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hero{
+    max-width: 100%;
+    background: linear-gradient(180deg, #1BFF5B -39.29%, #24E5FF 35.44%, #CC00FF 100%),
+                radial-gradient(83.04% 83.04% at 50% 16.96%, rgba(22, 217, 216, 0.5) 0%, rgba(84, 0, 192, 0.5) 100%);
+}
+
+/* .hero{
+    background-image: url("assets/img/hero/Rectangle\ 2.png");
+} */
+
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding-left: 10px;
+    
+}
+
+
+.btn button{
+    border-radius: 5px;
+}
+
+.images img{
+  height: 60px;
+  width: 0.5px;
+}
+
+.card:hover{
+  background: linear-gradient(-90deg, #A00000 , #FF6200 );
+    opacity: 1;
+  transition: 0.8s;
+}
+
+.news-btn button{
+  border-radius: 32px;
+  
+}
+
+
+.offer-section{
+  background: linear-gradient(-90deg,#42FEDA, #6989ED , #6989ED);
+}
+
+
+.email .input{
+  border-radius: 10px;
+}
